@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+    	.dustbin-box{
+    	}
+    	.dustbin{
+    		width: 100px;
+            height: 300px;
+    		text-align: center;
+    		line-height: 300px;
+    		border: 1px solid #000;
+            /*display: inline-block;*/
+            background-color: #fff;
+            float: left;
+    	}
+    	.dragbox{
+            /*display: inline-block;*/
+            float: left;
+    		width: 500px;
+            height: 300px;
+    		border: 1px solid;
+    		margin-left: -1px;
+    		/*display: flex;*/
+    		/*flex-direction: column;*/
+    	}
+    	.draglist{
+            /*float: left;*/
+            padding: 13px;
+    		background: #666;
+    		/*display: flex;*/
+ 			align-items: center;
+ 			border: 1px solid #505454;
+    	}
+        .dragremind{
+            float: left;
+            width: 600px;
+            /*height: 30px;*/
+        }
+    </style>
+</head>
+<body>
+<!-- <div class="dustbin-box"> -->
+<div class="dustbin">垃圾箱</div>
+<div class="dragbox">
+	<div class="draglist" title="拖拽我" draggable="true">列表1</div>
+	<div class="draglist" title="拖拽我" draggable="true">列表2</div>
+	<div class="draglist" title="拖拽我" draggable="true">列表3</div>
+	<div class="draglist" title="拖拽我" draggable="true">列表4</div>
+	<div class="draglist" title="拖拽我" draggable="true">列表5</div>
+	<div class="draglist" title="拖拽我" draggable="true">列表6</div>
+</div>
+<div class="dragremind">2111</div>
+<!-- </div> -->
+<script src="drag.js"></script>
+</body>
+</html>
